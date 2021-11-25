@@ -1,3 +1,9 @@
+# Fastcorrect Implementation Code from Authors
+
+You can check [this page](https://openreview.net/forum?id=N3oi7URBakV)
+
+***
+
 We include the FastCorrect model and autoregressive model.
 The models are fine-tuned on the AISHELL-1 dataset.
 
