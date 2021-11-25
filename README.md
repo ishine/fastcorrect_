@@ -25,8 +25,8 @@ They will release
 To obtain the results of FastCorrect and autoregressive models of AISHELL-1 as Table 1 in paper, there are several steps:
 
 - 1) `Download the FastCorrect and autoregressive models`
-    Download FastCorrect model from "https://drive.google.com/file/d/1Y0M8tAxJxPmkgxLt1NpFsiMPJhusHTA4/view?usp=sharing" and put it into "checkpoints/aishell_nat".
-    Download autoregressive model from "https://drive.google.com/file/d/1YZ-TsYocTn7Gvnx8z3GoNZ1WTsHBe8pP/view?usp=sharing" and put it into "checkpoints/aishell_at"
+    Download FastCorrect model from [google drive](https://drive.google.com/file/d/1Y0M8tAxJxPmkgxLt1NpFsiMPJhusHTA4/view?usp=sharing) and put it into "checkpoints/aishell_nat".
+    Download autoregressive model from [google drive2](https://drive.google.com/file/d/1YZ-TsYocTn7Gvnx8z3GoNZ1WTsHBe8pP/view?usp=sharing) and put it into "checkpoints/aishell_at"
 
 - 2) `Prepare environment`
     `bash install_sctk.sh` to install sctk (please remember the bin folder of sctk, e.g., "./sctk/bin")
