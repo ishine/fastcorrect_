@@ -50,18 +50,19 @@ To obtain the results of FastCorrect and autoregressive models of AISHELL-1 as T
 - 4) `Calculate WER`
     Assuming that the path of the bin folder of sctk is saved in `SCTK_BIN_DIR`
     
-    Get WER without correction:
-        `bash cal_wer_aishell.sh eval_data/dev $SCTK_BIN_DIR`  (Dev set, 4.46)
-        `bash cal_wer_aishell.sh eval_data/test $SCTK_BIN_DIR`  (Test set, 4.83)
+```
+# Get WER without correction:
+bash cal_wer_aishell.sh eval_data/dev $SCTK_BIN_DIR  # (Dev set, 4.46)
+bash cal_wer_aishell.sh eval_data/test $SCTK_BIN_DIR  # (Test set, 4.83)
 
-    Get WER of FastCorrect:
-        `bash cal_wer_aishell.sh checkpoints/aishell_nat/results_aishell_b0/dev $SCTK_BIN_DIR`  (Dev set, 3.89)
-        `bash cal_wer_aishell.sh checkpoints/aishell_nat/results_aishell_b0/test $SCTK_BIN_DIR`  (Test set, 4.16)
+# Get WER of FastCorrect:
+bash cal_wer_aishell.sh checkpoints/aishell_nat/results_aishell_b0/dev $SCTK_BIN_DIR  # (Dev set, 3.89)
+bash cal_wer_aishell.sh checkpoints/aishell_nat/results_aishell_b0/test $SCTK_BIN_DIR  # (Test set, 4.16)
 
-    Get WER of autoregressive:
-        `bash cal_wer_aishell.sh checkpoints/aishell_at/results_aishell_b0/dev $SCTK_BIN_DIR`  (Dev set, 3.80)
-        `bash cal_wer_aishell.sh checkpoints/aishell_at/results_aishell_b0/test $SCTK_BIN_DIR`  (Test set, 4.08)
-        
+# Get WER of autoregressive:
+bash cal_wer_aishell.sh checkpoints/aishell_at/results_aishell_b0/dev $SCTK_BIN_DIR  # (Dev set, 3.80)
+bash cal_wer_aishell.sh checkpoints/aishell_at/results_aishell_b0/test $SCTK_BIN_DIR  # (Test set, 4.08)
+```
 ![fastcorrect_table3](/assets/images/fastcorrect_table3.png)
 *Fig. 2. FastCorrect vs AR Model*
 
