@@ -61,6 +61,9 @@ To obtain the results of FastCorrect and autoregressive models of AISHELL-1 as T
     Get WER of autoregressive:
         `bash cal_wer_aishell.sh checkpoints/aishell_at/results_aishell_b0/dev $SCTK_BIN_DIR`  (Dev set, 3.80)
         `bash cal_wer_aishell.sh checkpoints/aishell_at/results_aishell_b0/test $SCTK_BIN_DIR`  (Test set, 4.08)
+        
+![fastcorrect_table3](/assets/images/fastcorrect_table3.png)
+*Fig. 2. FastCorrect vs AR Model*
 
 Some explanations about folders and files:
     eval_data: containing the inference result of ASR model, which is the input of correction model.
