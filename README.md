@@ -9,6 +9,9 @@ This repository include 2 models
 - FastCorrect model 
 - AutoRegressive (AR) model
 
+![fastcorrect_fig2](/assets/images/fastcorrect_fig2.png)
+*Fig. 1. FastCorrect Model Architecture*
+
 
 The models are fine-tuned on the AISHELL-1 dataset.
 
