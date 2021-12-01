@@ -1,5 +1,9 @@
 # Fastcorrect Implementation Code from Authors
 
+```
+!! WARNING : This is not the official repository for FastCorrect !! 
+```
+
 You can check [this page](https://openreview.net/forum?id=N3oi7URBakV)
 
 ***
